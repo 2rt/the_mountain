@@ -30,7 +30,7 @@ Above you can see that the line starting in 299.50 happens twice, this means tha
 Third Method
 
 Plateaus are only a problem if they are the largest value in the matrix, sometimes we have to randomly jump but doing that always is wasteful,
-So what we do instead, is take another vote we vote where the plateau is located within the 11x11 matrix and we jump in the direction it was going, because
+So what we do instead, is take another vote. We vote where the plateau is located within the 11x11 matrix and we jump in the direction it was going, because
 we've already got here by the largest value so the only way is forward not backward, this way we cut down the amount of jumps needed.
 
 All this gives me 10.18.
