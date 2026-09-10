@@ -23,6 +23,7 @@ What I had discovered is that once you get to the correct x or y co-ordinate the
 
 Above you can see that the line starting in 299.50 happens twice, this means that Y is found, Goto line 188 there is a vote taken because of the plateaus, and false positives.
 it then checks to see if index 0 of the found Y is bigger then index 10 of the known Y, and that is how we know the direction for the jump.
+It then checks to see if the best i, or best j which is the largest value on the known Y, it checks to see if that index i or j is greater than or equal to 5, there is no way to get this wrong, for if the largest value is near the middle it is already the peak.
 ### Third Method
 
 Plateaus are only a problem if they are the largest value in the matrix, sometimes we have to randomly jump but doing that always is wasteful,
