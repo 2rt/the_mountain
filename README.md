@@ -14,11 +14,11 @@ This is because, because they do not have rows, or columns next to them.
 What I had discovered is that once you get to the correct x or y co-ordinate the row below and above are identical. Below is an Example
 
 ```diff
-  299.34 302.68 306.02 309.36 312.69 316.03 319.37 322.71 326.04 329.37 332.71
+   299.34 302.68 306.02 309.36 312.69 316.03 319.37 322.71 326.04 329.37 332.71
 +  299.50 302.85 306.20 309.54 312.89 316.23 319.58 322.92 326.27 329.61 332.96
-  299.56 302.91 306.26 309.60 312.95 316.30 319.65 323.00 326.34 329.69 333.04
+   299.56 302.91 306.26 309.60 312.95 316.30 319.65 323.00 326.34 329.69 333.04
 +  299.50 302.85 306.20 309.54 312.89 316.23 319.58 322.92 326.27 329.61 332.96
-  299.34 302.68 306.02 309.36 312.69 316.03 319.37 322.71 326.04 329.37 332.71
+   299.34 302.68 306.02 309.36 312.69 316.03 319.37 322.71 326.04 329.37 332.71
 ```
 
 Above you can see that the line starting in 299.50 happens twice, this means that Y is found, Goto line 188 there is a vote taken because of the plateaus, and false positives.
